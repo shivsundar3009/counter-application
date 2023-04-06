@@ -1,0 +1,40 @@
+
+body{
+    height: 100vh;
+    margin: 0;padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    gap: 0.2vw;
+    display: flex;
+ align-items: center;
+}
+#value{
+ 
+    font-weight: 800;
+    padding: 1.8vh 1vw;
+    border: 1px solid black;
+}
+h1{
+    margin: 0;
+}
+.centerbutton{
+    cursor: pointer;
+  height: 5vh;
+  width: 9vw;
+    
+}
+#resetbutton{
+    cursor: pointer;
+    padding: 1vh 1vw;
+}
+.box{
+   
+     padding: 3vh 2vw;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   border: 1px solid black;
+}
